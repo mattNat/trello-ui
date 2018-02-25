@@ -2,6 +2,7 @@ import React from 'react';
 
 import './card.css';
 
+// avoid arrow functions for 
 export default function Card() {
     const text  = 'Example card';
     return (
@@ -10,4 +11,3 @@ export default function Card() {
         </div>
     );
 };
-
